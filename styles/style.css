@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;500;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    max-width: 1500px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.btn {
+    display: inline-block;
+    width: 160px;
+    height: 64px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #F15B22;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.btn-orange {
+    background: #F15B22;
+    color: #fff;
+}
+
+#header {
+    position: relative;
+    background: url('../images/banner/banner1.png') center no-repeat;
+    background-size: cover;
+    height: 780px;
+}
+
+#header .content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-40%);
+    right: 10%;
+    width: 525px;
+    text-align: right;
+}
+
+#header h1 {
+    width: 525px;
+    height: 228px;
+    font-size: 64px;
+    color: #151414;
+    line-height: 76px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    font-weight: 700;
+}
+
+#header p {
+    font-size: 15px;
+    width: 464px;
+    height: 78px;
+    line-height: 26px;
+    color: #444343;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+
+#header .btn {
+    margin-top: 30px;
+}
+
+#section .container {
+    padding: 100px 0 60px;
+}
+
+div#failure-lists {
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.col {
+    flex: 0 0 41%;
+    max-width: 41%;
+}
+
+.section-content {
+    align-self: flex-end;
+    padding-bottom: 60px;
+    padding-left: 50px;
+}
+
+.section-img.col img {
+    display: block;
+}
+
+div#failure-lists h1 {
+    width: 288px;
+    height: 94px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 25px;
+}
+
+div#failure-lists p {
+    width: 606px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    color: #444343;
+    margin-bottom: 15px;
+}
+
+ul.failure-list {
+    list-style: none;
+}
+
+ul.failure-list li {
+    color: #444343;
+    font-size: 19px;
+    line-height: 33px;
+}
+
+ul.failure-list li::before {
+    content: "\f00c";
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    display: inline-block;
+    color: #16D887;
+    margin-right: 10px;
+    font-size: 29px;
+}
+
+.plan-heading h1 {
+    width: 179px;
+    height: 47px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin: 40px auto;
+}
+
+div#my-plans {
+    justify-content: center;
+}
+
+.box {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+.box-inner {
+    text-align: center;
+}
+
+.box-inner img,
+.box-inner h3 {
+    margin-bottom: 20px;
+}
+
+.box-inner h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+}
+
+.box-inner p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+}
+
+#banner .content {
+    background: url(../images/gradient2.png), url(../images/watch.png);
+    width: 1140px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+    margin-top: 50px;
+}
+
+#banner .content h1 {
+    width: 459px;
+    height: 94px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+footer.container {
+    background: #151414;
+    padding: 100px 0;
+}
+
+footer .row {
+    justify-content: space-evenly;
+}
+
+.col-2 {
+    flex: 0 0 32.5%;
+    max-width: 32.5%;
+}
+
+.footer-subscribe form {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.footer-subscribe form label {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 25px;
+    color: #FFFFFF;
+}
+
+.footer-content h1,
+.footer-content p,
+.footer-content label {
+    margin-bottom: 20px;
+}
+
+.footer-content h1 {
+    width: 148px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+
+.footer-content img {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.footer-content p {
+    width: 485px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    font-weight: 200;
+}
+
+.footer-content label {
+    color: #fff;
+    font-weight: 200;
+    display: block;
+}
+
+input#email {
+    width: 325px;
+    height: 64px;
+    border: 1px solid #fff;
+    background: transparent;
+    padding: 0 22px;
+    margin: 0;
+    border-radius: 8px;
+    display: inline-block;
+    outline: none;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+input::placeholder {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F3F3F3;
+}
